@@ -1,0 +1,9 @@
+php artisan storge:link  - for view the storage folder image
+
+change path f --config -> filesystems.php
+
+
+'links' => [
+        public_path('storage') => storage_path('app/public'),  -> to
+                                                 
+                                                              
